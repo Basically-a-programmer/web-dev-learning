@@ -1,0 +1,163 @@
+body {
+    background-color: #c92121;
+}
+h1,p{
+    color: aquamarine;
+}
+/* we use # to do  the id styling 
+and . for the class styling */
+#heading{
+    background-color: aqua;
+}
+p.container{   /*we have p.container which means that the paragraph wich have only class as container will have this property*/
+    background-color: blueviolet;
+}
+/* the * is the all selector
+
+
+PROPERTY USE MDN TO REFER MORE
+
+1. background color property is used to give background color
+ 
+ 2. color propety is used to give color to the text 
+
+ 3.background-image: url(link)
+ this property is used to set image in background
+ 4. background-image repeat 
+ this is to control the repeatation of image 
+ 5. background-size : cover it cover the whole tag
+ refer online 
+6. background position property is used to postion the image in the 
+tag 
+7. background attachment:fixed  this property it is used to attach background even if we scrol it does not affect 
+     
+ height and width are set to the tag
+ total height and width is calculated using the formula
+ Th = height+2padding+2border+2margin
+ 
+ margin and padding can be used diffrently
+ margin collapse
+ this means that if we have two elelments and have margin then the margin or the gap between will be shared between them and it will be the greater of both
+ ex
+ if we have one element of margin 30px and other element of margin 20px the gap between the elements will be 30px
+
+ border 
+ border width
+ border style
+ border color 
+ border radius -- it makes border curve
+
+box sizing more on mdn reference
+this will make the totol size equal to size of parent which include padding and margin and content and border
+
+
+display property
+inline (only side margin and padding work in it other spacing properties don't)
+block ,  and inline-block (it allow width and height and simillar to inline ) and none(it remove the element) type
+
+visiblity: the space is reserved but element hidden
+
+text allign = this is to move the content of the element
+
+design
+text-decoration  use mdn for more reference
+text-transform use mdn for more refterence
+line height to have space of line
+font 
+use mdn for more reference and style in font
+font-family
+font-size 
+ 
+
+ use size using vw and vh more frequnetly for more responsive layout
+  vw -  it's the viewport width of the device
+  vh - it's the viewport height of the device
+
+  min height / max height / min width and max width 
+  these are the bounds number
+
+  position 
+   it's used to manuplate the location of the elements in the web page 
+   we have 3 types of positon
+   static ,relative,sticky and absolute
+ 
+   z index it tells the which will have higher priority to overlap
+
+   list style 
+   it's used to remvoe or to add the bullet point
+
+
+   float
+   it's used to float the element to right and left
+
+   clear is used to remove all the elements beside it
+
+
+
+   flexbox
+ display :flex
+ this is to intialize flexbox on a container
+ main axis is towards right
+ cross axis depend upon flex direction
+
+  flex direction
+  flex direction is by default a row but we can have it in colunm to mak the box in colunm and it can have reverse order aso
+  explore mdn
+  we have other propertyalso for flex container
+  flex-wrap to wrap the onatainers
+  justify content it is o put the container in position horziontally
+   align item
+   this is to align vertically
+   allign content this is to keep them together with no padding among each other
+
+   flex item
+   order this is to get the order
+   align self this property is used
+   it doesn't follow align content property the one on which it's applied at
+   flex grow and flex shrink these are property of the flex item to grow and shrink in relative to flex item others
+
+
+   css grid
+   display: grid
+   we have two other properties with us
+   grid-row-gap and grid column gap
+   
+
+   grid container properties
+   
+   grid template colunm is two have no of colunm
+   grid template row two get no of rows
+
+   grid item properties
+
+   grid colunm : start/end line
+   grid row  start/end  line 
+
+
+   media queries
+    @media screen and (condition ){
+        propeties
+    }
+
+    transform
+    it's to apply 2d and 3d transformation
+    go to mdn
+
+    css transition properties
+
+    css animation properties
+
+    @keyframe animation name{
+        from or percentage{
+            property 
+        }
+        to or percentage{
+            property
+        }
+    }
+    animation: animation name duration timingfunction delay iteration direction ;
+    this is used to give all the value all at a time
+
+    }
+
+ */
